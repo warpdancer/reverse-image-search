@@ -1,0 +1,17 @@
+{
+    "name": "Reverse Image Search",
+    "description": "Extension for handling reverse image search when right clicking an image. Community does what Google don't.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus"
+    ],
+    "icons": {
+        "16": "assets/smol.png",
+        "48": "assets/medium.png",
+        "128": "assets/lorge.png"
+      },
+    "background": { 
+        "service_worker": "entry.js"
+    }
+  }
